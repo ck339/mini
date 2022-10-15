@@ -1,0 +1,23 @@
+<view class="header">
+  <input placeholder='请输入商品名称'></input>
+</view>
+
+<view class="left">
+    <scroll-view scroll-y>
+      <view id="1" bindtap="switchTab">辅导书</view>
+      <view id="2" bindtap="switchTab">幼儿读物</view>
+      <view id="3" bindtap="switchTab">青少年读物</view>
+      <view id="4" bindtap="switchTab">国外名著</view>
+      <view id="5" bindtap="switchTab">中国古典名著</view>
+      <view id="6" bindtap="switchTab">绘画本</view>
+      <view id="7" bindtap="switchTab">小说杂志</view>
+      <view id="8" bindtap="switchTab">漫画杂志</view>
+    </scroll-view>
+    
+  </view>
+  <view class="right">
+    <image src='../../images/fudao1.jpg'></image>
+    <image src='../../images/fudao2.jpg'></image>
+    <image src='../../images/fudao3.jpg'></image>
+  </view>
+

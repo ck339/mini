@@ -1,0 +1,16 @@
+<!--pages/myCart/myCart.wxml-->
+<view class="cart-total">
+  <text class="total-text">合计：</text>
+  <text class="total-color">￥{{total}}元</text>
+</view>
+<view class="total-bottom">
+  <icon wx:if="{{checkAll}}" class="cart-icon" type="success" color="#ff0000" size="22" bindtap="select" data-index="{{index}}" />
+  <icon wx:else type="circle" class="cart-icon" size="22" bindtap="select" data-index="{{index}}" />
+  <text class="checked-all">全选</text>
+  <view class="clear-car">
+    <text class="pay" bindtap="goPay">结算</text>
+  </view>
+  <view class="clear-car">
+    <text class="clear-text" bindtap="clearcar" data-id="{{item.id}}">清空购物车</text>
+  </view>
+</view>

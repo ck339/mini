@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/sort/sort",
+    "pages/myCart/myCart",
+    "pages/goods_details/goods_details",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8B8B8B",
+    "navigationBarTitleText": "晓范书屋",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#656565",
+    "selectedColor": "#D81E06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab1.png",
+        "selectedIconPath": "images/tab5.png"
+      },
+      {
+        "pagePath": "pages/sort/sort",
+        "text": "分类",
+        "iconPath": "images/tab2.png",
+        "selectedIconPath": "images/tab6.png"
+      },
+      {
+        "pagePath": "pages/myCart/myCart",
+        "text": "购物车",
+        "iconPath": "images/tab9.png",
+        "selectedIconPath": "images/tab10.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/tab4.png",
+        "selectedIconPath": "images/tab8.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+<!--pages/about/about.wxml-->
+<view class='content'>
+
+  <view class='userinfo'>
+    <open-data type='userAvatarUrl' class='userimg'></open-data>
+    <open-data type='userNickName'></open-data>
+  </view>
+<text>\n\n\n\n</text>
+  <view class="mecontent">
+     <view class="mefuntion" bindtap='mefuntion'>我要投诉</view>
+  </view>
+
+   <view class="part1"></view>
+  <view class="mecontent" bindtap="setup">
+     <view class="mefuntion" bindtap='setup'>系统设置</view>
+    
+  </view>
+
+</view> 

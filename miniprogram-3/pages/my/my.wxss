@@ -1,0 +1,17 @@
+/* pages/about/about.wxss */
+.userimg{
+  width: 150rpx;
+  height: 150rpx;
+  float: left;
+  margin: 10rpx;
+}
+
+
+.mecontent{
+  display: flex;
+  flex-direction: row;
+}
+.part1{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+}
